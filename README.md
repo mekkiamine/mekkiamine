@@ -10,7 +10,7 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Amine%20Mekki-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Amine%20Mekki-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-amine-mekki-b58b94212/)
 [![Email](https://img.shields.io/badge/Email-mekkiamine34%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mekkiamine34@gmail.com)
 ![Location](https://img.shields.io/badge/Tunis%2C%20Tunisia-1a3c6e?style=for-the-badge&logo=googlemaps&logoColor=white)
 
