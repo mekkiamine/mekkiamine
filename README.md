@@ -39,19 +39,7 @@ I design and deploy production-grade systems on **OpenStack** and **Kubernetes**
 | **OpenStack Private Cloud** | 7-node OpenStack Epoxy cluster built by a team of 6 (1 controller, 4 compute, 2 storage), automated with Ansible, Kubernetes on top, monitored with Prometheus + Grafana | ![](https://img.shields.io/badge/OpenStack-ED1944?logo=openstack&logoColor=white) ![](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) ![](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white) ![](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white) |
 | **[Urbanova](https://github.com/mekkiamine/Urbanove-Backend)** | AI-based real estate recommendation platform: bilingual NER model (spaCy, 92–95% detection accuracy) combined with XGBoost to score and rank listings | ![](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![](https://img.shields.io/badge/spaCy-09A3D5?logo=spacy&logoColor=white) ![](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) |
 
-### 🔄 How E-ComK8s ships code
 
-```mermaid
-flowchart LR
-    A[👨‍💻 Push to GitHub] --> B[GitHub Actions<br/>tests · ESLint · SonarQube]
-    B --> C[Docker image<br/>build & publish]
-    C --> D[GitOps repo<br/>manifests updated]
-    D --> E[Argo CD<br/>sync]
-    E --> F[☸️ Kubernetes<br/>HPA · Ingress · Longhorn]
-    F --> G[📊 ELK logging<br/>& monitoring]
-```
-
----
 
 ## 🛠️ Tech stack
 
